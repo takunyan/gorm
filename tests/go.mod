@@ -7,12 +7,13 @@ require (
 	github.com/jackc/pgx/v4 v4.14.1 // indirect
 	github.com/jinzhu/now v1.1.4
 	github.com/lib/pq v1.10.4
-	golang.org/x/crypto v0.0.0-20211209193657-4570a0811e8b // indirect
+	github.com/mattn/go-sqlite3 v1.14.10 // indirect
+	golang.org/x/crypto v0.0.0-20220112180741-5e0467b6c7ce // indirect
 	gorm.io/driver/mysql v1.2.3
 	gorm.io/driver/postgres v1.2.3
 	gorm.io/driver/sqlite v1.2.6
 	gorm.io/driver/sqlserver v1.2.1
-	gorm.io/gorm v1.22.4
+	gorm.io/gorm v1.22.5
 )
 
 replace gorm.io/gorm => ../
